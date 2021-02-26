@@ -1,7 +1,7 @@
-<h1  align="center">Z-Wallet Mobile App</h1>
+<h1  align="center">GoldTime</h1>
 
 
-<p  align="center">Suka ribet buka-buka dompet buat ngeluarin uang?<br/>Simpan aja uangmu di <strong>Z-Wallet</strong> Sekarang!
+<p  align="center">Susah atur waktu keseharianmu?<br/>Pake Gold Time, jadikan setiap momentmu terorganisir dengan <strong>Gold Time</strong> Sekarang!
 </p>
 
 
