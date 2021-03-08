@@ -6053,6 +6053,11 @@ react-native-screens@^2.15.0:
   resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.17.1.tgz#c3c0ac750af48741c5b1635511e6af2a27b74309"
   integrity sha512-B4gD5e4csvlVwlhf+RNqjQZ9mHTwe/iL3rXondgZxnKz4oW0QAmtLnLRKOrYVxoaJaF9Fy7jhjo//24/472APQ==
 
+react-native-sound-player@^0.10.6:
+  version "0.10.6"
+  resolved "https://registry.yarnpkg.com/react-native-sound-player/-/react-native-sound-player-0.10.6.tgz#cba4fc6b079bc9f92e64b77308eedbb04ab07de6"
+  integrity sha512-gK3a5d5iLBLqOQREVlGuTvHk8Qorx/HySPH1ZFpKhHExhXN6r/P036pYAGeUTSmhxwdJ5vnjsFE6Qq1BM9TRSA==
+
 react-native-svg-transformer@^0.14.3:
   version "0.14.3"
   resolved "https://registry.yarnpkg.com/react-native-svg-transformer/-/react-native-svg-transformer-0.14.3.tgz#43c8e176f5a11f16f39b87a64018e0ac090ffbdb"
