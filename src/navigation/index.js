@@ -6,7 +6,7 @@ const Stack = createStackNavigator();
 export default function Router() {
   return (
     <>
-      <Stack.Navigator initialRouteName={'Home'}>
+      <Stack.Navigator initialRouteName={'Timer'}>
         <Stack.Screen
           name="Home"
           component={Home}
