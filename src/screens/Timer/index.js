@@ -12,6 +12,7 @@ const Timer = ({navigation}) => {
   let [counter, setCounter] = React.useState(0);
   let [start, setStart] = React.useState(false);
 
+  // styled
   const digitStyle = {
     backgroundColor: 'transparent',
     width: 60,
@@ -21,8 +22,10 @@ const Timer = ({navigation}) => {
     fontSize: 40,
     color: '#070417',
   };
-  const time = 10 * 1;
 
+  // Time
+  const time = 10 * 1;
+  // Calc Progress
   const calcPercent = (counter / time) * 100;
 
   const onChange = () => {
@@ -30,22 +33,22 @@ const Timer = ({navigation}) => {
     setCounter(counter + 1);
   };
 
-  const DURATION = 1000;
   const playSong = () => {
     try {
       SoundPlayer.playSoundFile('test', 'mp3');
     } catch (e) {
-      alert('Cannot play the file ' + e);
       console.log('cannot play the song file', e);
     }
   };
+  const DURATION = 1000;
   const PATTERN = [1 * DURATION, 2 * DURATION, 3 * DURATION];
+
   const startVibration = () => {
-    //To start the vibration for the defined Duration
     Vibration.vibrate(PATTERN, true);
     playSong();
     setStart(false);
   };
+
   const renderRemainingTime = () => {
     return (
       <CountDown
