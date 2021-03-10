@@ -8,15 +8,9 @@ import {
   heightPercentageToDP,
   widthPercentageToDP,
 } from 'react-native-responsive-screen';
-import {BottomNav} from '../../components';
+import {BottomNav, Title, Circle, CategoryChip} from '../../components';
 
 const Home = ({navigation}) => {
-  const Title = styled.Text`
-    font-family: ${(props) => props.family || `Rubik-Medium`};
-    font-size: ${(props) => props.size || `28px`};
-    color: ${(props) => props.color || `#070417`};
-    margin-bottom: 5px;
-  `;
   const Container = styled.View`
     display: flex;
     flex: 1;
@@ -41,15 +35,6 @@ const Home = ({navigation}) => {
   const CurrentTaskWrap = styled.View`
     flex-direction: row;
   `;
-  const Circle = styled.View`
-    width: ${(props) => props.width || `20`};
-    height: ${(props) => props.width || `20`};
-    border-radius: ${(props) => (props.width || 20) / 2};
-    background-color: #9b51e0;
-    margin-right: 15px;
-    align-items: center;
-    justify-content: center;
-  `;
 
   const ListTaskCard = styled.View`
     background-color: #ffffff;
@@ -68,16 +53,6 @@ const Home = ({navigation}) => {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  `;
-
-  const CategoryChip = styled.View`
-    background-color: ${(props) => props.color || `#FFEFF1`};
-    width: 40px;
-    height: 20px;
-    border-radius: 5px;
-    align-items: center
-    justify-content: center;
-    margin-right: 5px
   `;
 
   const onMore = () => {
